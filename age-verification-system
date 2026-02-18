@@ -1,0 +1,17 @@
+#include <iostream>
+int main()
+{
+   int age;
+   std::cout << "Age verification \n";
+   std::cout << "Please give your age: ";
+   std::cin >> age;
+   if (age >= 18)
+   {
+       std::cout << "Congratulations, you can go vote";
+   }
+   else 
+   {
+       std::cout << "Sorry! You are not allowed to vote yet";
+   }
+    return 0;
+}
