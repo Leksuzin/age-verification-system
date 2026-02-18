@@ -3,7 +3,7 @@ int main()
 {
    int age;
    std::cout << "Age verification \n";
-   std::cout << "Please give your age: ";
+   std::cout << "Please enter your age: ";
    std::cin >> age;
    if (age >= 18)
    {
